@@ -9,21 +9,15 @@ export class AppComponent implements OnInit {
   name = 'Angular';
   options: any;
   ngOnInit() {
-    this.options = [{
-      background: "#aeaedf",
-      color: "white",
-      icon: "fa-info",
-      label: "Select ",
-      value: 0,
-    }, {
+    this.options = [ {
       background: "green",
-      color: "white",
+      color: "green",
       icon: "fa fa-check-square",
       label: "Approve",
       value: 1,
     }, {
-      background: "#aeaedf",
-      color: "white",
+      background: "brown",
+      color: "brown",
       icon: "fa fa-square",
       label: "Ignore",
       value: 1,
