@@ -1,3 +1,7 @@
-<p>
-action-button works!
-</p>
+<button [style.color]="buttons[selectedIndex].color"
+        [style.background]="buttons[selectedIndex].background"
+        style="border:none;padding:10px;cursor:pointer;"
+        (click)="changeButton()"
+        >
+       <i [class]="buttons[selectedIndex].icon" aria-hidden="true"></i> <span style="padding-left:10px">{{buttons[selectedIndex].label}}</span>
+        </button>
